@@ -118,7 +118,7 @@ profilesData.forEach((profile) => {
                         >
                     </div>
                     <div class="edit-btn">
-                        Edit
+                        Edit profile
                     </div>
                 </div>
                 <figure class="card-img-container">
