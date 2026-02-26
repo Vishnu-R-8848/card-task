@@ -245,7 +245,7 @@ select {
 
 .edit-btn {
     height: 35px;
-    width: 55px;
+    width: fit-content;
     color: var(--color-bg-surface);
     background: var(--color-primary);
     display: flex;
