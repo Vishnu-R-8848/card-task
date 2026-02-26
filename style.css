@@ -275,7 +275,6 @@ select {
 }
 
 .profile-details-container {
-    min-height: 350px;
     display: none;
     position: absolute;
     bottom: 0;
