@@ -124,6 +124,9 @@ profilesData.forEach((profile) => {
                 <figure class="card-img-container">
                     <img src="${profile.imageUrl}" " alt=" " class="imgs " id="img-1 " />
                     <div class="profile-details-container ">
+                      <span class="side-text ">
+                            See profile
+                        </span>
                         <h2 class="user-name ">
                             ${profile.name.split(" ")[0]}
                             <br />
@@ -155,6 +158,6 @@ profilesData.forEach((profile) => {
 });
 
 let card_container = document.querySelector(".card-container");
- card_container.innerHTML = card_bluePrint;
+card_container.innerHTML = card_bluePrint;
 
 console.log(profilesData);
