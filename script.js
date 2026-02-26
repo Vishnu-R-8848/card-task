@@ -155,6 +155,6 @@ profilesData.forEach((profile) => {
 });
 
 let card_container = document.querySelector(".card-container");
-// card_container.innerHTML = card_bluePrint;
+ card_container.innerHTML = card_bluePrint;
 
 console.log(profilesData);
