@@ -9,7 +9,7 @@
     --color-bg-body: #edf0f5;
     --color-bg-surface: #ffffff;
     --color-text-body: #dbe6f6;
-    --card-profile: #000000a7;
+    --card-profile: linear-gradient(180deg, transparent, #000000);
     /* --- Colors: Grayscale --- */
     --color-gray-100: #f3f4f6;
     --color-gray-300: #d1d5db;
@@ -287,7 +287,7 @@ select {
     justify-content: center;
     flex-direction: column;
     gap: var(--space-sm);
-    padding: var(--space-lg);
+    padding: var(--space-sm);
     margin: var(--space-sm);
     border: 2px solid var(--color-gray-500);
     border-radius: var(--radius-xl);
